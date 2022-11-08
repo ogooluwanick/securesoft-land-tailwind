@@ -43,7 +43,8 @@ body{
         width: 24px;
         height: 2px;
         background-color: black;
-        /* transition: all .5s ease-in-out; */
+        transform: rotate(0);
+        transition: all 0.5s;
 }
 
 .hamburger-2{
@@ -57,6 +58,7 @@ body{
 
 .open{
         transform: rotate(90deg);
+        transform: translateY(0px);
 }
 
 .open .hamburger-1{
@@ -68,5 +70,5 @@ body{
 }
 
 .open .hamburger-3{
-        transform: rotate(-45deg)  translateY(6px) translate(-6px);
+        transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
